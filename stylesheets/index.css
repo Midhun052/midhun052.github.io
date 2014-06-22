@@ -1,0 +1,28 @@
+.backGround
+{
+background-color:rgb(247, 247, 249);
+}
+
+.Heading
+{
+font-size: 36px;
+font-weight: bolder;
+
+color: rgb(255, 18, 132);
+}
+
+.TopPadding
+{
+ margin-top:10px;
+}
+.GithubImage
+{
+margin-top: 2px;
+margin-right: 2px;
+}
+
+.subScript
+{
+font-size: 10px;
+color: rgb(255, 18, 132);
+}

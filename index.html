@@ -4,27 +4,40 @@
     <meta charset='utf-8' />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <meta name="description" content="Midhun052.github.io : " />
-	<meta name="keywords" content="json,javascript,table,jjstable,jquery table"/>
+	<meta name="keywords" content="json,javascript,table,jjstable,jquery table"/>	
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js" ></script>	
 	<script type="text/javascript" src="javascripts/jjsTable.js"></script>
 	<script type="text/javascript" src="javascripts/main.js"></script>    
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/jjstable.css"/>
+	<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/index.css"/>
 	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"/>
 	
     <title>My Projects - Midhun</title>
   </head>
-  <body>
+  <body class="backGround">
   <div class="container">
-   
+  
+	<div class="row TopPadding">
+	<nav class="navbar navbar-default">
+	<div class="navbar-header">
+		<a class="navbar-brand" href="#"><span class="Heading">JavaScript Plug-ins</span><span class="subScript">&nbsp;by midhun</span></a>
+		
+	</div>
+	<div class="nav navbar-nav pull-right ">
+	<a class="btn btn-info GithubImage" href="https://github.com/Midhun052">View Project at Github&nbsp;<img src="images/blacktocat.png"></a>
+	</div>
+	</nav>
+	</div>
+   <div class="row">
    <div class="col-md-12 col-sm-12 col-xs-12">
    <main>
    <section>
 	<article>
 	<header>
-	<h1><strong>JSON JavaScript Table (jjsTable)</strong></h1>
-	<p>JSON-JavaScript-Table (jjsTable) is JavaScript library used to create  responsive html table from JSON data. Bootstrap framework used to make the table responsive.</p>
+	<h1><strong>JSON JavaScript Table (jjsTable)</strong></h1></header>
+	<p>JSON-JavaScript-Table (jjsTable) is JavaScript library used to create html table from JSON data.</p>
 	<div>
-	<p><h2><strong>jjsTable Features</strong></h2></p>
+	<p><h2><strong>Features</strong></h2></p>
 	<ul>
 		<li>Allows sorting by column</li>
 		<li>Allows pagination</li>
@@ -32,8 +45,7 @@
 	</ul>
 	</div>
 	<div>
-	<div id="tablePlaceHolder" class="row"></div>
-	</div>
+	
 	<div>
 	<p><h2><strong>Syntax</strong></h2></p>
 	<code>jjsTable.createTable('tablePlaceHolder',initialResultCount,sampleJSONObject,columnHeadingMappingArray)</code>
@@ -44,10 +56,11 @@
 		<li>columnHeadingMappingArray - A mapping between the JSON data and the table column to be displayed</li>
 	</ul>
 	</div>
-	</ul>
-	</header>
+	<div id="tablePlaceHolder" class="row"></div>
+	</div>
+	
 	<footer>
-	<a class="btn btn-info" href="https://github.com/Midhun052">View Project at Github&nbsp;<img src="images/blacktocat.png"></a>
+	
 	</footer>
 	</article>
    </section>
