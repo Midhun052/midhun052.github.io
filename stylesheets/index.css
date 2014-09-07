@@ -26,3 +26,17 @@ margin-right: 2px;
 font-size: 10px;
 color: rgb(255, 18, 132);
 }
+
+
+#left,#right
+{
+color:#17ACF1;;
+font-size:35px;
+}
+
+.myCarousel
+{
+width:400px;
+margin-left:auto;
+margin-right:auto;
+}
